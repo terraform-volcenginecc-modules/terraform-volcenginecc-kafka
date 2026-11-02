@@ -1,0 +1,19 @@
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.tfstate.lock.info
+
+# Local development artifacts
+.idea/
+.DS_Store
+.dbg/
+.aiac/
+*.tfvars
+*.tfvars.json
